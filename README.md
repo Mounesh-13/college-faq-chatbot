@@ -15,17 +15,25 @@ A simple FAQ chatbot built with Flask and FuzzyWuzzy to provide automated respon
    cd faq-chatbot
 Create Virtual Environment (optional)
 
+
 bash
+
 Copy code
+
 python -m venv venv
+
 Activate Virtual Environment
 
 Windows: .\venv\Scripts\activate
+
 Mac/Linux: source venv/bin/activate
+
 Install Dependencies
 
 bash
+
 Copy code
+
 pip install flask pandas fuzzywuzzy python-Levenshtein
 
 Prepare FAQ Dataset Ensure faq_data.csv is in the project directory, formatted with question and answer columns.
