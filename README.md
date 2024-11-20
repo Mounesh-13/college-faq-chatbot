@@ -27,13 +27,17 @@ Install Dependencies
 bash
 Copy code
 pip install flask pandas fuzzywuzzy python-Levenshtein
+
 Prepare FAQ Dataset Ensure faq_data.csv is in the project directory, formatted with question and answer columns.
 
 Run the App
 
 bash
+
 Copy code
+
 python app.py
+
 Access at http://127.0.0.1:5000/.
 
 Test Cases
